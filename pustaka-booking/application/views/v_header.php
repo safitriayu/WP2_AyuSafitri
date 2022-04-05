@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Web Prog II | Merancang Template Sederhana dengan Codeigniter</title>
@@ -15,14 +15,10 @@
 </hgroup>
 <nav>
     <ul>
-        <li><a href="<?php echo 
-        base_url().'index.php/web' ?>">Home</a></li>
-        <li><a href="<?php echo 
-        base_url().'index.php/web/about' ?>">About</a></li>
-            </ul>
+        <li><a href="<?php echo base_url().'index.php/web' ?>">Home</a></li>
+        <li><a href="<?php echo base_url().'index.php/web/about' ?>">About</a></li>
+    </ul>
 </nav>
 <div class="clear"></div>
 </header>
     
-</body>
-</html>
